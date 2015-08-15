@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-08-15T20:14:04Z" product-name="feuser_demo">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>Test</source>
+			</trans-unit>
+			<trans-unit id="bettor.description">
+				<source>bettor</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

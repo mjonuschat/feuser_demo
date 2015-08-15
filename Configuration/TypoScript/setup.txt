@@ -1,0 +1,49 @@
+
+plugin.tx_feuserdemo {
+	view {
+		templateRootPath = {$plugin.tx_feuserdemo.view.templateRootPath}
+		partialRootPath = {$plugin.tx_feuserdemo.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_feuserdemo.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_feuserdemo.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_feuserdemo._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-feuser-demo table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-feuser-demo table th {
+		font-weight:bold;
+	}
+
+	.tx-feuser-demo table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)

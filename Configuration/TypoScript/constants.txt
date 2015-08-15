@@ -1,0 +1,15 @@
+
+plugin.tx_feuserdemo {
+	view {
+		# cat=plugin.tx_feuserdemo/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:feuser_demo/Resources/Private/Templates/
+		# cat=plugin.tx_feuserdemo/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:feuser_demo/Resources/Private/Partials/
+		# cat=plugin.tx_feuserdemo/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:feuser_demo/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_feuserdemo//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
